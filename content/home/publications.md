@@ -2,12 +2,11 @@
 # A Recent Publications section created with the Pages widget.
 # This section displays recent blog posts from `content/publication/`.
 
-widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
+widget = "pages"  # Do not modify this line!
 active = true  # Activate this widget? true/false
-weight = 90  # Order that this section will appear.
+weight = 30  # Order that this section will appear.
 
-title = "Recent Publications"
+title = "5 most recent publications"
 subtitle = ""
 
 [content]
@@ -36,7 +35,7 @@ subtitle = ""
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view = 2
+  view = 3
   
 [design.background]
   # Apply a background color, gradient, or image.
@@ -66,6 +65,4 @@ subtitle = ""
  css_class = ""
 +++
 
-{{% alert note %}}
-Quickly discover relevant content by [filtering publications]({{< ref "/publication/_index.md" >}}).
-{{% /alert %}}
+## [Browse all]({{< ref "/publication/_index.md" >}}) or visit [Google Scholar](https://scholar.google.com.au/citations?user=9WXgCXUAAAAJ&hl=en).
